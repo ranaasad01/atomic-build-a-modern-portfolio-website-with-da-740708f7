@@ -1,6 +1,5 @@
 "use client";
-
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import { ArrowRight, Code2 as Github, Briefcase as Linkedin, MessageCircle as Twitter, Mail, ExternalLink, Star, Code, Sparkles, CheckCircle, Download, ChevronRight } from 'lucide-react';
@@ -95,7 +94,7 @@ const experience = [
 const testimonials = [
   {
     quote: "Alex has an exceptional eye for detail and a deep understanding of both design and engineering. The work on our design system was transformative.",
-    author: "Sarah Chen",
+    author: "Asad Rana",
     role: "Head of Design, Vercel",
     avatar: "https://cdn.tatlerasia.com/tatlerasia/i/2023/10/18163147-untitled-design-4_cover_1600x938.jpg",
   },

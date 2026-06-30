@@ -34,7 +34,7 @@ const projects = [
     title: "Luminary Dashboard",
     description: "A real-time analytics platform for SaaS companies. Built with Next.js, Recharts, and a PostgreSQL backend. Handles 50k+ daily active users with sub-100ms query times.",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Recharts"],
-    image: "https://i.vimeocdn.com/video/2070296830-ceeecfbc9625686542679222c41f1ccfabdc4dfc4fe6ebaa3a484e1427ba6773-d?f=webp",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/740708f7-46b5-4107-bafa-a32f9685fc60/images/uploaded-1782809645562-o7tgp4.png?v=1782809646722",
     href: "https://github.com",
     live: "https://luminary.dev",
     featured: true,

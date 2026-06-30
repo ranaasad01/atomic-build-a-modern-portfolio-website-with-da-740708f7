@@ -263,7 +263,7 @@ export default function HomePage() {
             className="flex-1 text-center lg:text-left"
           >
             <motion.div variants={fadeInUp} className="mb-6">
-              <SectionLabel>Available for work</SectionLabel>
+              <SectionLabel>AI Engineer</SectionLabel>
             </motion.div>
 
             <motion.h1

@@ -1,4 +1,5 @@
 "use client";
+
 import { useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
@@ -782,7 +783,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <div className="text-white font-semibold text-sm font-[family-name:var(--font-syne)]">{t.author}</div>
-                    <div className="text-white/30 text-xs">{t.role}</div>
+                    <div className="text-white/30 text-xs" style={t.author === "Asad Rana" && t.role === "Head of Design, Vercel" ? { color: "#ef4444" } : undefined}>{t.role}</div>
                   </div>
                 </div>
               </motion.div>
